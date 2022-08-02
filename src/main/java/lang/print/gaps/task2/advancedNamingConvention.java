@@ -5,13 +5,14 @@ public class advancedNamingConvention {
 
     private int AGE;
     private int phoneNumber;
+    int Number;
 
     void CAllToFriend() {
-        AGE = 30;
+        AGE=30;
         phoneNumber=12345678;
     }
 
-    void callByNumber(int Number) {
-
+    void callByNumber() {
+        int Number = phoneNumber;
     }
 }
